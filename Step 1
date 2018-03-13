@@ -1,3 +1,20 @@
-# Documentation
-# Wtf am I doing
-# Using my limited knowledge in JS and node to build hello world widget 
+/* Documentation
+ Wtf am I doing
+ Using my limited knowledge in JS and node to build hello world widget 
+
+ Steps so far- I've tried and failed to install the program. Fun. But lodash installed just fine so idk wtf is going on there. 
+ I'm guessing, possibily incorrectly that I'm failing because I'm missing Xcode or homebrew or whatever. Maybe I should ask for xcode. 
+ I'm literally an idiot. To get terminal to play in JS, I need to > node
+ That's it. Then we're in JS.
+
+ I need to create a local directory before installing. Duh. Ok, need to do that. 
+ Where I am. I created the local directory, and navigated to it with cd (hello_world_widget), then ran the code to get it to install.
+ The local directory has the credentials.json that's not working, hence the general unhappiness.
+ Essentially the code is: 
+  cd desktop/
+  cd hello_world_widget
+  npm install --save @igloosoftware/ig-deploy
+    // for now, we're just ignoring the use uuid module instead issue
+  node deploy.js
+    // should be done here, but doesn't work
+  */
